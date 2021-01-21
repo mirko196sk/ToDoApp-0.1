@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+.area{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    border: 1px solid black;
+    width: 700px;
+    height: 110px;
+    border-radius: 30px;
+    
+}
+
+.title{
+    position: absolute;
+    left: 270px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.text{
+    position: absolute;
+    top: 70px;
+    left: 125px;
+}
+
+.submit{
+    position: absolute;
+    top: 70px;
+    left: 465px;
+}
+
+.clear{
+    position: absolute;
+    top: 70px;
+    left: 550px;
+}
+
+.list{
+    position: relative;
+    top: 120px;
+    left: 300px;
+}
+
+.checkbox{
+    position: relative;
+    top: 23px;
+    left: 10px;
+}
